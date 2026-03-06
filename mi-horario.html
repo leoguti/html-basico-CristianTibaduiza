@@ -1,1 +1,150 @@
-LO
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Horario - Cristian Tibaduiza</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        
+        th {
+            padding: 15px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            background-color: #333;
+        }
+        
+        td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        
+        .hora {
+            background-color: #f0f0f0;
+            font-weight: bold;
+        }
+        
+        .matematicas { background-color: #FFB6C1; }
+        .lenguaje { background-color: #87CEEB; }
+        .ingles { background-color: #98FB98; }
+        .historia { background-color: #FFD700; }
+        .ciencias { background-color: #DDA0DD; }
+        .arte { background-color: #FFA07A; }
+        .educacionfisica { background-color: #90EE90; }
+        .tecnologia { background-color: #87CEFA; }
+        
+        footer {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            border-top: 2px solid #ddd;
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mi Horario de Clases</h1>
+        <h2 style="text-align: center; color: #666; margin-bottom: 20px;">Cristian Tibaduiza</h2>
+        
+        <table border="1">
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <td class="hora">07:00 - 08:00</td>
+                <td class="matematicas">Matemáticas</td>
+                <td class="lenguaje">Lenguaje</td>
+                <td class="ingles">Inglés</td>
+                <td class="historia">Historia</td>
+                <td class="ciencias">Ciencias</td>
+            </tr>
+            <tr>
+                <td class="hora">08:00 - 09:00</td>
+                <td class="ciencias">Ciencias</td>
+                <td class="matematicas">Matemáticas</td>
+                <td class="arte">Arte</td>
+                <td class="lenguaje">Lenguaje</td>
+                <td class="ingles">Inglés</td>
+            </tr>
+            <tr>
+                <td class="hora">09:00 - 10:00</td>
+                <td class="historia">Historia</td>
+                <td class="ingles">Inglés</td>
+                <td class="matematicas">Matemáticas</td>
+                <td class="ciencias">Ciencias</td>
+                <td class="arte">Arte</td>
+            </tr>
+            <tr>
+                <td class="hora">10:00 - 11:00</td>
+                <td class="arte">Arte</td>
+                <td class="historia">Historia</td>
+                <td class="lenguaje">Lenguaje</td>
+                <td class="matematicas">Matemáticas</td>
+                <td class="educacionfisica">Educación Física</td>
+            </tr>
+            <tr>
+                <td class="hora">11:00 - 12:00</td>
+                <td class="ingles">Inglés</td>
+                <td class="ciencias">Ciencias</td>
+                <td class="historia">Historia</td>
+                <td class="arte">Arte</td>
+                <td class="tecnologia">Tecnología</td>
+            </tr>
+            <tr>
+                <td class="hora">12:00 - 13:00</td>
+                <td class="educacionfisica">Educación Física</td>
+                <td class="tecnologia">Tecnología</td>
+                <td class="ciencias">Ciencias</td>
+                <td class="historia">Historia</td>
+                <td class="lenguaje">Lenguaje</td>
+            </tr>
+        </table>
+        
+        <footer>
+            Hecho con HTML + Copilot | Escuela OSM Salesiano 2026
+        </footer>
+    </div>
+</body>
+</html>
